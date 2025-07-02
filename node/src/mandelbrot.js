@@ -1,11 +1,11 @@
-// lib/mandelbrot.js
 // -----------------------------------------------------------
 // Stream a Mandelbrot set as CSV rows to stdout
 // -----------------------------------------------------------
+
 export async function mandelbrot({
-  cx = 0,                 // centre X
-  cy = 0,                 // centre Y
-  viewW = 4,              // width  of window in complex units
+  cx = 0,                 // center X
+  cy = 0,                 // center Y
+  viewW = 4,              // width of window in complex units
   viewH = 4,              // height of window in complex units
   step  = 0.01,           // pixel size in complex units
   maxIter = 100,
@@ -14,7 +14,7 @@ export async function mandelbrot({
   out     = process.stdout,
 } = {}) {
 
-// Derive pixel dimensions
+//  pixel dimensions
 const nx = Math.max(1, Math.round(viewW / step));
 const ny = Math.max(1, Math.round(viewH / step));
 
