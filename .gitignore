@@ -1,0 +1,5 @@
+# Python virtual environment
+/python/venv/
+
+# Node modules in the 'node' folder
+/node/node_modules/

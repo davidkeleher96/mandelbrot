@@ -1,0 +1,4 @@
+name,center_x,center_y,size,pixels,max_iter
+default.jpg,-0.7,0.0,3.0769,1024,500
+seahorse_tail.jpg,-0.7435669,0.1314023,0.0022878,2048,1200
+seahorse_valley.jpg,-0.74364409961,0.13182604688,0.00000066208,4096,5000
